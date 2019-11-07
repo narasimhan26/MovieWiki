@@ -1,6 +1,6 @@
 function getMovieDetails(){
     var id = window.location.search.split('?id=')[1];
-    var url = 'http://www.omdbapi.com/?apikey=79f0b98a&&i='+id; // geting details of the movie using Movie id
+    var url = 'https://www.omdbapi.com/?apikey=79f0b98a&&i='+id; // geting details of the movie using Movie id
     fetch(url)
     .then(function(response) {
      return response.json();
