@@ -7,7 +7,7 @@ function myFunction() {
     
     //getting search results from API 
 
-    var url = 'http://www.omdbapi.com/?apikey=79f0b98a&&s='+searchValue+'&page='+page;
+    var url = 'https://www.omdbapi.com/?apikey=79f0b98a&&s='+searchValue+'&page='+page;
     //var url = "./sample.json";
     console.log(url);
     fetch(url)
