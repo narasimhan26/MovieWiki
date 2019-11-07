@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+    <title>Movie buff</title>
+  </head>
+  <body onload="getMovieDetails()">
+    <div class="header">
+      <div class="back" onclick="goBack()"><i class='fas fa-long-arrow-alt-left' style='font-size:40px;color: white;float: left;'></i></div>
+      <div class="logo">Movie<b class="logo-inner">Buff</b></div>
+    </div>
+    <div class="page-container">
+      <div class="left">
+        <img
+          class="movie-img"
+          id="movie-img"
+          src=""
+        />  <!-- poster -->
+        <h3 id="imdb"></h3> <!--imbd ratings-->
+    </div>
+    <div class="right">
+        <h2 class="movie-title" id="movie-title"></h2> <!-- title--> 
+        <b class="movie-year" id="movie-year"></b><br />
+        <div class="genre-list" id="genre-list"> 
+          <!-- <span class="genre">Action</span>  # span to display genre-->
+        </div>
+        <p class="plot" id="plot">
+          
+        </p>
+        <p id="directors"><b>Director(s): </b>George Lucas</p>
+        <p id="writers"><b>Writer(s): </b>George Lucas</p>
+        <p><b>Cast: </b>
+            <ul id="casts">
+                <!-- <li>Mark Hamill</li>  casts and crew-->
+            </ul>
+        </p>
+      </div>
+    </div>
+
+    <script src="JS/movie.js"></script>
+  </body>
+</html>
+

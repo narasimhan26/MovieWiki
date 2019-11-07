@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|PT+Sans&display=swap");
+
+body {
+  background: #f6f6f6; /* fallback for old browsers */
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+input {
+  outline: none;
+  border: 0;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background: white;
+  font-size: 1.5rem;
+  width: 450px;
+}
+.btn-display{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.invisible{
+  display: none;
+}
+
+button {
+  background: #1c8cbf;
+  color: #fff;
+  outline: none;
+  border: 0;
+  padding: 15px 30px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  font-size: 1.5rem;
+}
+
+button {
+  background: #1c8cbf;
+  color: #fff;
+  outline: none;
+  border: 0;
+  padding: 15px 30px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  font-size: 1.5rem;  
+}
+
+.name {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.logo-inner {
+  font-family: "Merriweather", serif;
+}
+
+.head2 {
+  color: #111;
+  font-weight: bold;
+}
+
+.header {
+  background: #111;
+  padding: 10px 2.5%;
+}
+
+.search {
+  background: #333;
+  text-align: center;
+  background-image: url("../IMG/cover.jpg");
+  background-size: cover;
+}
+
+.search-overlay {
+  padding: 120px 2.5%;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  box-sizing: border-box;
+}
+.card {
+  transition: 0.3s;
+  border-radius: 3px;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 3px 3px 0 0;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.card h4 {
+  margin: 1em auto 0.3em auto;
+  font-size: 1.2em;
+}
+
+.card p {
+  margin: 0 auto;
+  margin-bottom: 0.75em;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.page-container {
+  width: 100%;
+  padding: 1em 5%;
+  box-sizing: border-box;
+}
+
+.left {
+  width: 30%;
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.right {
+  width: 70%;
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+#display {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.display-empty {
+  color: #666;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 10vh;
+  grid-column: 1 / span 4;
+}
+
+.display-empty-sub {
+  font-size: 22px;
+}
+
+.movie-img {
+  border-radius: 15px;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.genre-list {
+  margin-top: 1em;
+}
+
+.genre {
+  background: #1c8cbf;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-right: 2px;
+  color: #fff;
+}
+
+.movie-title {
+  margin-bottom: 0.25em;
+}
+
+.movie-year {
+  margin-top: 0.25em;
+}

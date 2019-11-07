@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <title>Movie buff</title>
+</head>
+<body onload="myFunction()">
+    <div class="header">
+        <div class="logo">
+            Movie<b class="logo-inner">Buff</b>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search-overlay">
+            <input type="text" placeholder="Search" name="Search" id="search"/>
+            <button type="submit" onclick="myFunction()">Search</button>
+        </div>
+    </div>
+    <div class="page-container">
+        <div id="display">
+            <div class="display-empty" id="display-empty">
+                No Search Found!
+                <div class="display-empty-sub">Start searching for your favorite movie.</div>
+            </div>
+        </div>
+        <div class = "btn-display">
+            <button id="loadMore" class="invisible" onclick="myFunction()">Load More</button>
+        </div>
+    </div>
+        
+    <script src="JS/index.js"></script>
+</body>
+</html>
